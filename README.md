@@ -27,13 +27,14 @@ Aplicación Android para recomendar cultivos según el clima actual y la ubicaci
 1. Clonar este repositorio:
    ```bash
    git clone https://github.com/tu_usuario/AgroSmart.git
-   Abrir el proyecto desde Android Studio.
 
-2. Agregar el archivo google-services.json en la carpeta app/ para habilitar Firebase.
+2. Abrir el proyecto desde Android Studio.
 
-3. Ejecutar en un emulador o dispositivo real con acceso a ubicación habilitado.
+3. Agregar el archivo google-services.json en la carpeta app/ para habilitar Firebase.
 
-4. Para que funcione correctamente la API del clima, se debe contar con una clave de OpenWeatherMap en el archivo CultivosActivity.kt.
+4. Ejecutar en un emulador o dispositivo real con acceso a ubicación habilitado.
+
+5. Para que funcione correctamente la API del clima, se debe contar con una clave de OpenWeatherMap en el archivo CultivosActivity.kt.
 
 📡 Tecnologías utilizadas
 
