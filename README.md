@@ -5,6 +5,8 @@
 4. Josué Alejandro Brañez Mercado
 5. Rodrigo Alejandro García Benavides
 6. Wilmer Reyes Corani
+
+   
 Aplicación Android para recomendar cultivos según el clima actual y la ubicación del usuario.
 
 ## 📱 Casos de uso
