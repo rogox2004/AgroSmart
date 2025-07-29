@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "735124741714",
+    "project_id": "agrosmart-6e898",
+    "storage_bucket": "agrosmart-6e898.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:735124741714:android:f9f5ed46096aa1ec0fc98b",
+        "android_client_info": {
+          "package_name": "com.rodrigo.agrosmart"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0aL3qsCT0vg8FuZ2fbZZBNb6GKPpE6nc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

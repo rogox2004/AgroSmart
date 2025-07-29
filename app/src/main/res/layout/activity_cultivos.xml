@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/tvUbicacionStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Estado de ubicación: pendiente"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnSolicitarUbicacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Activar ubicación" />
+
+    <TextView
+        android:id="@+id/tvRecomendaciones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aquí aparecerán las recomendaciones"
+        android:textSize="16sp"
+        android:layout_marginTop="24dp" />
+
+    <!-- Spinner para seleccionar cultivo -->
+    <Spinner
+        android:id="@+id/spinnerCultivos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btnAgregarCultivo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Agregar cultivo"
+        android:layout_marginTop="12dp" />
+
+    <!-- TextView para título o mensaje cuando no hay cultivos -->
+    <TextView
+        android:id="@+id/tvCultivosAgregados"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cultivos agregados:"
+        android:textSize="16sp"
+        android:layout_marginTop="24dp" />
+
+    <!-- ScrollView que contiene el contenedor para los cultivos con imágenes -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="12dp">
+
+        <LinearLayout
+            android:id="@+id/llCultivosContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+
+    </ScrollView>
+
+</LinearLayout>
