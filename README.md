@@ -10,11 +10,17 @@
 Aplicación Android para recomendar cultivos según el clima actual y la ubicación del usuario.
 
 ## 📱 Casos de uso
+
 -Registrarse
+
 -Iniciar Sesion
+
 -Consultar condiciones de siembra
+
 -Agregar Cultivo
+
 -Recomendar cultivos
+
 
 ## ▶️ Cómo ejecutar
 
@@ -30,10 +36,16 @@ Aplicación Android para recomendar cultivos según el clima actual y la ubicaci
 4. Para que funcione correctamente la API del clima, se debe contar con una clave de OpenWeatherMap en el archivo CultivosActivity.kt.
 
 📡 Tecnologías utilizadas
+
 -Android Studio (API 36)
+
 -Jetpack Compose y View XML
+
 -Firebase Authentication
+
 -Firebase Firestore
+
 -API REST de OpenWeatherMap
+
 -Kotlin
 
